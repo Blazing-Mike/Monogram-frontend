@@ -1,0 +1,100 @@
+@import "../utils/settings";
+//big tablets and small screen laptops
+
+@media screen and (min-width:760px) {
+
+    .Hero {
+        
+        height: 660px;
+    
+        .Hero__text {
+            text-align: right;
+            margin-right:10rem ;
+            color: $primary-color;
+
+    
+        }
+    
+    }
+
+.console-showcase__container {
+    gap: 3rem;
+}
+
+    .product-container{
+        width: 30rem;
+          figure{
+            margin: 10px auto;
+  
+            .console-image{
+              width: 30rem ;
+             
+            }
+          }
+          &:hover{
+            .product-hover{
+            margin-bottom: 1px;
+            }
+        }
+        
+        
+      }
+
+    .x2-product-container{
+      width: 60rem;
+        figure{
+          margin: 10px auto;
+
+          .x2-console-image{
+            width: 60rem ;
+           
+          }
+        }
+    
+      &:hover{
+          .product-hover{
+              margin-left: 1rem;
+          }
+
+          .btn-primary{
+              margin-top: -1rem;
+          }
+      }
+
+      .product-container-desc{
+          width: 50rem;
+          gap: 15rem;
+      }
+      
+    }
+
+
+    .break-section{
+   
+        .med-heading{
+           font-size: 3rem;
+           margin-top: 4rem;
+        }
+    
+    
+    }
+
+    .console-components__container {
+
+.product-container {
+    width: 30rem;
+   
+    &:hover {
+    .product-hover {
+      margin-left:0;
+      width:30rem ;
+       
+    }
+
+}
+  
+ }
+
+}
+
+}

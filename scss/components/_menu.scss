@@ -1,0 +1,64 @@
+@import "../utils/settings";
+
+//styles that belongs to menu
+.Navbar {
+    background: $primary-color;
+    padding: 30px 20px;
+    justify-content: space-between;
+
+.Navbar__logo{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+    .mobile-container {
+        gap: 10px;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+
+    .Navbar__items {
+        display: none;
+    }
+
+    
+    .Navbar__toggleShow{
+        margin-top: 20px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;  
+       
+    }
+}
+
+@media screen and (min-width:760px) {
+
+    .Navbar{
+        justify-content: space-between;
+        padding:10px 20px;
+
+        
+.Navbar__logo{
+    position: relative;
+    top: 0;
+}
+
+    .Navbar__toggle{
+        display: none;
+    }
+
+    .Navbar__items {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .mobile-container {
+        position: relative;
+        top: 0;
+        
+    }
+
+}
+}

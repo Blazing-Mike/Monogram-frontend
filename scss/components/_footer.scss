@@ -1,0 +1,82 @@
+// all footer styles here
+
+footer{
+    background: $primary-color;
+    padding: 20px;
+
+    .footer-container{
+        justify-content: flex-start;
+        align-items: start;
+
+        .subscribe{
+
+            .small-heading{
+                margin-bottom: -1rem;
+            }
+            .footer-para{
+                margin-top: -0.7rem;
+            }
+
+            .email-container{
+                margin-top: -10px;
+            }
+        }
+    }
+
+    .footer-para{
+        color: #efc2b3;
+        font-size: 0.9rem;
+    
+    }
+
+    .footer-item{
+        width: 13rem;
+        gap: 5px;
+        .small-heading{
+            color: #efc2b3;
+            padding-bottom: 5px;
+        }
+    }
+
+    .email-input{
+        border: 1px solid $white-grey;
+        background: inherit;
+        width: 10rem;
+        height: 2.2rem;
+
+        &::placeholder{
+            font-size: 1rem;
+            padding: 5px;
+        }
+    }
+
+    .submit-btn{
+        width: 10rem;
+        border-radius: 15px;
+        outline: none;
+        border: transparent;
+        background: #efc2b3;
+        opacity: 0.6;
+    }
+
+    .social-icons{
+        gap: 5px;
+        margin-top: 5px;
+        padding-bottom: 10px;
+    }
+    .social-icon__container {
+        background: #efc2b3;
+        width:2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width:760px) {
+ footer{
+
+    .footer-container{
+        justify-content: center;
+    }
+ }   
+}

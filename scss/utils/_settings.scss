@@ -1,0 +1,74 @@
+// this contains variables for colors, height, border-radius, mixins, font-sizes, etc
+
+$primary-color:#1a2456;
+
+$accent-orange:#ff8b68;
+
+$secondary-color:#ff501c;
+
+$white-grey:#f0efed;
+
+$black:#080b1b;
+
+.gap {
+    gap: 5px;
+}
+
+.gap-x {
+    gap: 1rem;
+}
+
+.gap-xx {
+    gap: 2rem;
+}
+
+.gap-xxx {
+    gap: 4rem;
+}
+
+.gap-xvi{
+    gap: 6rem;
+}
+
+.gap-xvii{
+    gap: 7rem;
+}
+
+.gap-xviii{
+    gap: 8rem;
+}
+.logo {
+    width: 9rem;
+}
+
+.toggle-image {
+    width: 2rem;
+}
+
+.arrow-down {
+    width: 5rem;
+    margin-top: 1rem;
+}
+
+.console-image {
+ height: 100%;
+width: 23rem;
+}
+
+.break-image{
+    height:auto;
+    width: 100%;
+}
+.social-icon{
+    width: 1rem;
+}
+@media screen and (min-width:760px) {
+    .logo {
+        width: 12rem;
+    }
+
+    .cart-icon{
+        width: 2rem;
+    }
+}
+

@@ -1,0 +1,122 @@
+@import "../utils/settings";
+
+// All styles relating to main content 
+
+.console-showcase__container {
+    padding: 40px;
+}
+
+.product-container {
+    position: relative;
+    width: 24rem;
+
+    figure{
+      margin: 10px 0;
+    }
+
+    .product-hover,
+    .btn-primary {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        object-fit: contain;
+        opacity: 0;
+        transition: opacity .2s;
+    }
+
+    .price {
+        .para {
+        
+            font-size: 1rem;
+        }
+    }
+
+    &:hover {
+        .product-hover {
+            opacity: 1;            
+            margin-top: -3rem;
+           
+        }
+
+        .product-main{
+           visibility: hidden;
+        }
+
+        .btn-primary {
+            opacity: 1;
+            position: relative;
+            margin-top: 2rem;
+        }
+
+        .price {
+            .para {
+                display: none;
+            }
+        }
+
+        .product-container-desc{
+            gap: 4rem;
+        }
+    }
+
+    .product-container-desc{
+        
+        margin-top: 0.2rem;
+        color: $primary-color;
+        .para{
+            font-size: 1rem;
+        }
+
+        .small-heading{
+                width: 12rem;
+                font-size: 0.9rem;
+        }
+    }
+  
+}
+
+.break-section{
+   
+    .med-heading,.para{
+        color: $primary-color;
+    }
+
+    .break-section__text{
+        padding: 20px 0;
+            position: absolute;
+            text-align: center;
+            left: 0;
+            right: 0;
+    }
+}
+
+.console-components__container {
+    margin: 2rem 0;
+       
+    .product-container {
+       width: 23rem;
+    
+        &:hover {
+            .product-hover {
+                opacity: 1;            
+                margin-top: -1rem;
+                width: 23rem;
+               
+            }
+
+
+            .btn-primary {
+                opacity: 1;
+                position: relative;
+                margin-top: -2rem;
+            }
+
+          
+
+      
+}
+}
+
+}

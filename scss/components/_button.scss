@@ -1,0 +1,23 @@
+@import "../utils/settings";
+//styles that belongs to buttons. Add classes you need, feel free to break stuffs to suit your need
+
+.solid-btn {
+    background: $primary-color;
+    color: $white-grey;
+}
+
+.btn-primary {
+    width: 6rem;
+    height: 2.2rem;
+    padding: 5px;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    border: transparent;
+
+}
+
+.btn-secondary {}
+
+.btn-solid {}
+
+.btn-transparent {}
