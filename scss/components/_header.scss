@@ -2,12 +2,15 @@
 //styles that belongs to header
 
 .Hero {
-   /* background: url("/assets/hero-image.jpeg") no-repeat center; */
-    height: 500px;
+   /* background: url("/assets/hero-image.jpeg") no-repeat center; 
+    height: 500px; */
 
     .Hero__text {
         text-align: center;
-        margin-top: 10rem;
+       position: absolute;
+       left: 0;
+       right: 0;
+       margin-top: 3rem;
         color: $primary-color;
 
 

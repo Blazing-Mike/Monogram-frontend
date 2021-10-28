@@ -4,12 +4,13 @@
 @media screen and (min-width:760px) {
 
     .Hero {
-      background: url("/assets/hero-image.jpeg") no-repeat center;
-               height: 650px;
+    /*  background: url("/assets/hero-image.jpeg") no-repeat center;
+               height: 650px; */
     
         .Hero__text {
             text-align: right;
-            margin-right:10rem ;
+            margin-top: 10rem;
+            right: 10%;
             color: $primary-color;
 
     

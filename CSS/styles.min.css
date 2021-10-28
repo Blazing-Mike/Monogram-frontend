@@ -42,6 +42,9 @@
 .social-icon {
   width: 1rem; }
 
+.hero-image {
+  height: auto; }
+
 @media screen and (min-width: 760px) {
   .logo {
     width: 12rem; }
@@ -61,7 +64,7 @@ h5 {
   font-family: "Prompt", sans-serif; }
 
 .big-heading {
-  font-size: 2.5rem; }
+  font-size: 2rem; }
 
 .med-heading {
   font-size: 1.5rem; }
@@ -138,6 +141,9 @@ h5 {
 .social-icon {
   width: 1rem; }
 
+.hero-image {
+  height: auto; }
+
 @media screen and (min-width: 760px) {
   .logo {
     width: 12rem; }
@@ -197,6 +203,9 @@ h5 {
 
 .social-icon {
   width: 1rem; }
+
+.hero-image {
+  height: auto; }
 
 @media screen and (min-width: 760px) {
   .logo {
@@ -361,6 +370,9 @@ footer {
 .social-icon {
   width: 1rem; }
 
+.hero-image {
+  height: auto; }
+
 @media screen and (min-width: 760px) {
   .logo {
     width: 12rem; }
@@ -368,11 +380,14 @@ footer {
     width: 2rem; } }
 
 .Hero {
-  /* background: url("/assets/hero-image.jpeg") no-repeat center; */
-  height: 500px; }
+  /* background: url("/assets/hero-image.jpeg") no-repeat center; 
+    height: 500px; */ }
   .Hero .Hero__text {
     text-align: center;
-    margin-top: 10rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 3rem;
     color: #1a2456; }
 
 .gap {
@@ -417,6 +432,9 @@ footer {
 .social-icon {
   width: 1rem; }
 
+.hero-image {
+  height: auto; }
+
 @media screen and (min-width: 760px) {
   .logo {
     width: 12rem; }
@@ -439,7 +457,7 @@ footer {
   .Navbar .Navbar__items {
     display: none; }
   .Navbar .Navbar__toggleShow {
-    margin-top: 20px;
+    margin-top: 30px;
     gap: 10px;
     display: flex;
     flex-direction: column; }
@@ -502,6 +520,9 @@ footer {
 .social-icon {
   width: 1rem; }
 
+.hero-image {
+  height: auto; }
+
 @media screen and (min-width: 760px) {
   .logo {
     width: 12rem; }
@@ -550,6 +571,9 @@ footer {
 .social-icon {
   width: 1rem; }
 
+.hero-image {
+  height: auto; }
+
 @media screen and (min-width: 760px) {
   .logo {
     width: 12rem; }
@@ -558,11 +582,12 @@ footer {
 
 @media screen and (min-width: 760px) {
   .Hero {
-    background: url("/assets/hero-image.jpeg") no-repeat center;
-    height: 650px; }
+    /*  background: url("/assets/hero-image.jpeg") no-repeat center;
+               height: 650px; */ }
     .Hero .Hero__text {
       text-align: right;
-      margin-right: 10rem;
+      margin-top: 10rem;
+      right: 10%;
       color: #1a2456; }
   .console-showcase__container {
     gap: 3rem; }
