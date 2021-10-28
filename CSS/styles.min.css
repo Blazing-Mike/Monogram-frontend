@@ -368,8 +368,8 @@ footer {
     width: 2rem; } }
 
 .Hero {
-  background: url("/assets/asset 1.jpeg") no-repeat center;
-  height: 600px; }
+  background: url("/assets/hero-image.jpeg") no-repeat center;
+  height: 500px; }
   .Hero .Hero__text {
     text-align: center;
     margin-top: 10rem;
