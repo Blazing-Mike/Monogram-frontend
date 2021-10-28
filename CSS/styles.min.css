@@ -558,7 +558,8 @@ footer {
 
 @media screen and (min-width: 760px) {
   .Hero {
-    height: 660px; }
+    background: url("/assets/hero-image.jpeg") no-repeat center;
+    height: 650px; }
     .Hero .Hero__text {
       text-align: right;
       margin-right: 10rem;
