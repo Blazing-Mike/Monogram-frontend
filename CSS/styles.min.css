@@ -368,7 +368,7 @@ footer {
     width: 2rem; } }
 
 .Hero {
-  background: url("assets/hero-image.jpeg") no-repeat center;
+  background: url("/assets/hero-image.jpeg") no-repeat center;
   height: 500px; }
   .Hero .Hero__text {
     text-align: center;
